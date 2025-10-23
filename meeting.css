@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #002d5a;
+    border-radius: 5px;
+}
+
+/* Meetings Section */
+.meetings-section {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.meetings-section h2 {
+    color: #004080;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.meetings-section p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table Style */
+.meeting-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.meeting-table th, .meeting-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.meeting-table th {
+    background-color: #004080;
+    color: white;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.meeting-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.meeting-table td {
+    font-size: 1rem;
+}
+
+.meeting-table .btn {
+    background-color: #004080;
+    color: white;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.meeting-table .btn:hover {
+    background-color: #002d5a;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #4CAF50;
+    color: rgb(190, 222, 47);
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('banner-image.jpg'); /* Add a banner image */
+    background-size: cover;
+    background-position: center;
+    color: rgba(64, 4, 54, 0.9);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.banner .btn {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.banner .btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Mission Section */
+.mission, .objectives, .contact {
+    background-color: white;
+    padding: 40px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mission h2, .objectives h2, .contact h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mission p, .contact p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.objectives ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    font-size: 1.1rem;
+}
+
+.objectives ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}

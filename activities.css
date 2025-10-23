@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #c9b3d5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #bcc8d4;
+    border-radius: 5px;
+}
+
+/* Activities Section */
+.activities {
+    padding: 40px 20px;
+    margin-top: 20px;
+    background-color: #c4a6b884;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activities h2 {
+    color: #0056b3;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.activities p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+
+/* Activity Cards */
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.activity-card {
+    display: flex;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(208, 44, 44, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.activity-image img {
+    width: 250px;
+    height: auto;
+}
+
+.activity-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.activity-content h3 {
+    color: #0056b3;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.activity-content .date {
+    font-size: 1rem;
+    color: #ff5722;
+    font-weight: bold;
+   

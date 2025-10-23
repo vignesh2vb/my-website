@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #4a47a3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #383471;
+    border-radius: 5px;
+}
+
+/* Reports Section */
+.reports-section {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reports-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reports-header h2 {
+    font-size: 2.3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.reports-header p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* Reports List */
+.reports-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.report-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.report-item h3 {
+    font-size: 1.8rem;
+    color: #4a47a3;
+    margin-bottom: 15px;
+}
+
+.report-item p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.btn {
+    background-color: #4a47a3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #383471;
+}
+
+/* Footer */
+footer {
+    background-color: #4a47a3;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}

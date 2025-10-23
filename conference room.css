@@ -1,0 +1,135 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #003e80;
+    border-radius: 5px;
+}
+
+/* Conference Room Section */
+.conference-room-section {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-card {
+    background-color: #e0f2f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.room-card h2 {
+    color: #0056b3;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.room-card p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.room-features h3, .room-info h3 {
+    color: #003e80;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.room-features ul {
+    list-style: disc;
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.room-features ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.room-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #003e80;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}

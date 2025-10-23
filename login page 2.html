@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQAC Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .login-container h2 {
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 24px;
+            color: #004085;
+        }
+
+        .input-field {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .input-field label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #004085;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #002d64;
+        }
+
+        .register-link {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            color: #777;
+            text-decoration: none;
+        }
+
+        .register-link:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>IQAC Login</h2>
+        <form id="loginForm">
+            <div class="input-field">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+            <a href="login page.html" class="register-link">Don't have an account? Register here</a>
+        </form>
+    </div>
+
+    <script>
+        // Login Form Handling
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get the username and password values
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Retrieve stored password from localStorage
+            const storedPassword = localStorage.getItem(username);
+
+            // Validate the username and password
+            if (storedPassword === password) {
+                
+                // Redirect to home page or dashboard
+                window.location.href = 'home.html';
+            } else {
+                alert('Invalid username or password.');
+            }
+        });
+    </script>
+</body>
+</html>

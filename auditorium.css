@@ -1,0 +1,170 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #2e4777;
+    border-radius: 5px;
+}
+
+/* Auditorium Section */
+.auditorium-section {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auditorium-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.auditorium-info h2 {
+    font-size: 2.5rem;
+    color: #3b5998;
+    margin-bottom: 20px;
+}
+
+.auditorium-info p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* Auditorium Features */
+.auditorium-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.features-column {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.features-column h3 {
+    font-size: 1.8rem;
+    color: #3b5998;
+    margin-bottom: 20px;
+}
+
+.features-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.features-column ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.features-image {
+    flex: 1;
+}
+
+.features-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Auditorium Booking */
+.auditorium-booking {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.auditorium-booking h3 {
+    font-size: 2rem;
+    color: #3b5998;
+    margin-bottom: 20px;
+}
+
+.auditorium-booking p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2e4777;
+}
+
+/* Footer */
+footer {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}

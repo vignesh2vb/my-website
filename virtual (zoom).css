@@ -1,0 +1,185 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background-color: #005f80;
+    border-radius: 5px;
+}
+
+/* Zoom Section */
+.zoom-section {
+    background-color: white;
+    padding: 50px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.zoom-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.zoom-header h2 {
+    font-size: 2.3rem;
+    color: #023e8a;
+    margin-bottom: 20px;
+}
+
+.zoom-header p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+/* Zoom Details */
+.zoom-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.zoom-info {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.zoom-info h3 {
+    font-size: 1.8rem;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.zoom-info ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.zoom-info ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.zoom-image {
+    flex: 1;
+}
+
+.zoom-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Zoom Schedule */
+.zoom-schedule {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.zoom-schedule h3 {
+    font-size: 2rem;
+    color: #023e8a;
+    margin-bottom: 20px;
+}
+
+.zoom-schedule p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.schedule-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.schedule-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.schedule-list strong {
+    color: #0077b6;
+}
+
+/* Button */
+.btn {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005f80;
+}
+
+/* Footer */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
